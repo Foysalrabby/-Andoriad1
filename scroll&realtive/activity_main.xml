@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_above="@id/bottomupor"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+
+        android:layout_marginBottom="0dp"
+        android:background="#2CD51F">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="Ethnolinguists study the way perception and conceptualization influences language and show how
+ that is linked to different cultures and societies. An example is how spatial orientation is expressed
+in various cultures.[2][3] In many societies, words for the cardinal directions east and west are derived from
+ terms for sunrise/sunset. The nomenclature for cardinal directions of Inuit speakers of Greenland, however
+, is based on geographical landmarks such as the river system and one's position on the coast. Similarly
+, the Yurok lack the idea of cardinal
+directions; they orient themselves with respect to their principal geographic feature, the Klamath River.
+"
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button2" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="#601A1A"
+              android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Button" />
+            </LinearLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Ethnolinguists study the way perception and conceptualization influences language and show how
+ that is linked to different cultures and societies. An example is how spatial orientation is expressed
+in various cultures.[2][3] In many societies, words for the cardinal directions east and west are derived from
+ terms for sunrise/sunset. The nomenclature for cardinal directions of Inuit speakers of Greenland, however
+, is based on geographical landmarks such as the river system and one's position on the coast. Similarly
+, the Yurok lack the idea of cardinal
+directions; they orient themselves with respect to their principal geographic feature, the Klamath River.
+Ethnolinguists study the way perception and conceptualization influences language and show how
+ that is linked to different cultures and societies. An example is how spatial orientation is expressed
+in various cultures.[2][3] In many societies, words for the cardinal directions east and west are derived from
+ terms for sunrise/sunset. The nomenclature for cardinal directions of Inuit speakers of Greenland, however
+, is based on geographical landmarks such as the river system and one's position on the coast. Similarly
+, the Yurok lack the idea of cardinal
+directions; they orient themselves with respect to their principal geographic feature, the Klamath River.
+
+Ethnolinguists study the way perception and conceptualization influences language and show how
+ that is linked to different cultures and societies. An example is how spatial orientation is expressed
+in various cultures.[2][3] In many societies, words for the cardinal directions east and west are derived from
+ terms for sunrise/sunset. The nomenclature for cardinal directions of Inuit speakers of Greenland, however
+, is based on geographical landmarks such as the river system and one's position on the coast. Similarly
+, the Yurok lack the idea of cardinal
+directions; they orient themselves with respect to their principal geographic feature, the Klamath River.
+
+"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomupor"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:background="#3E3737"
+      android:layout_alignParentBottom="true"
+
+        android:gravity="center"
+
+        >
+
+
+        <Button
+
+            android:id="@+id/button2"
+            android:layout_width="fill_parent"
+           android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Buttonfffffghfhjgkjhgkhgjhg"
+
+            />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="fill_parent"
+            android:layout_height="60"
+            android:layout_weight="1"
+            android:text="Button" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
