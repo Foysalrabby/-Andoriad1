@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+
+    >
+<!--using garadient -->
+<gradient
+    android:startColor="#FF9800"
+    android:endColor="#FF5722"
+    android:angle="90"
+
+    />
+<stroke
+    android:width="5dp"
+  android:color="#CDDC39"
+
+    />
+    <!--using raridus hosce bakano -->
+<corners
+ android:radius="10dp"
+
+    />
+
+
+</shape>
