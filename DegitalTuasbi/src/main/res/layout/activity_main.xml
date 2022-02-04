@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:background="#AC7E39"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvcount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:padding="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/Addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FF5722"
+        android:padding="5dp"
+        android:paddingBottom="10dp"
+        android:text="Add One"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/Sunbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub one"
+        android:textSize="20dp"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:padding="5dp"
+
+        />
+    <Button
+        android:id="@+id/Resetbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="20dp"
+        android:backgroundTint="#FF5722"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:padding="5dp"
+
+        />
+
+
+
+
+</LinearLayout>
