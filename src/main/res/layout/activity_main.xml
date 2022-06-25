@@ -1,53 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#5C5959"
-    android:padding="10dp"
     android:orientation="vertical"
+    android:background="#F6E8E8"
     tools:context=".MainActivity">
+
     <TextView
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-        android:text="Bagladesh is BeautifulCountry"
-        android:background="#4154D1"
-        android:textColor="#EAECEF"
-        android:textSize="25sp"
-        android:gravity="center"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
         android:textStyle="bold"
-        android:padding="4dp"
-
-
-       />
-
-  <ImageView
-    android:layout_width="match_parent"
-    android:layout_height="450dp"
-    android:src="@drawable/cover"
-     android:padding="4dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:padding="3dp"
       />
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Bangladesh is a unitary parliamentary constitutional republic based on the Westminster system. Bengalis make up 98% of the total population of Bangladesh"
-    android:textSize="20dp"
-    android:textStyle="normal"
-    android:background="#55CED5D1"
-    android:textColor="#DCCECE"
-    android:padding="10dp"
-    android:layout_marginTop="5dp"
-    android:layout_marginBottom="5dp"
-
-/>
-    <Button
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="3dp"
+      android:padding="5dp"
+      android:background="#534747"
+      />
+    <EditText
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Click here"
+        android:id="@+id/editweight"
+        android:hint="Enter your weight"
+        android:inputType="number"
+        />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/editheight"
+            android:hint="Enter in fit height"
+            android:inputType="number"
+            />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:id="@+id/editheight2"
+            android:layout_marginLeft="20dp"
+            android:hint="Enter height in inch"
+            android:inputType="number"
+            />
+    </LinearLayout>
+     <Button
+         android:id="@+id/claculate"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="5sp"
+         android:text="Calculate bmi"
+         />
+
+    <TextView
+        android:id="@+id/dispalytxt"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:padding="3dp"
+        />
+    <TextView
+        android:id="@+id/dispalytxt12"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:padding="3dp"
         />
 
-  </LinearLayout>
+</LinearLayout>
